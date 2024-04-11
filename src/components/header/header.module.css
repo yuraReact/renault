@@ -8,15 +8,24 @@
 
 
 .search {
-    background-color: transparent; /* Прозрачный фон */
-    border: 2px solid #ccc; /* Тонкая серая рамка */
-    border-radius: 10px; /* Небольшой радиус закругления углов */
-    padding: 8px 12px; /* Поля внутри инпута */
-    box-shadow: none; /* Убираем тень */
-    color: #333; /* Цвет текста */
-    font-size: 16px; /* Размер текста */
-    width: 200px; /* Ширина инпута */
-    transition: border-color 0.3s ease; /* Плавное изменение цвета рамки */
+    background-color: transparent;
+    /* Прозрачный фон */
+    border: 2px solid #ccc;
+    /* Тонкая серая рамка */
+    border-radius: 10px;
+    /* Небольшой радиус закругления углов */
+    padding: 8px 12px;
+    /* Поля внутри инпута */
+    box-shadow: none;
+    /* Убираем тень */
+    color: #333;
+    /* Цвет текста */
+    font-size: 16px;
+    /* Размер текста */
+    width: 200px;
+    /* Ширина инпута */
+    transition: border-color 0.3s ease;
+    /* Плавное изменение цвета рамки */
     position: absolute;
     top: 50%;
     right: 20px;
@@ -24,18 +33,24 @@
 }
 
 .search::placeholder {
-    color: #999; /* Цвет placeholder */
+    color: #999;
+    /* Цвет placeholder */
 }
 
 .search:hover,
 .search:focus {
-    border-color: #999; /* Цвет рамки при наведении и фокусе */
-    outline: none; /* Убираем контур при фокусе */
+    border-color: #999;
+    /* Цвет рамки при наведении и фокусе */
+    outline: none;
+    /* Убираем контур при фокусе */
 }
 
-button {
+.modelsbtn,
+.workshopbtn,
+.fanshopbtn,
+.renaultsportbtn {
     margin-right: 30px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -45,8 +60,11 @@ button {
     border: 0;
 }
 
-button:hover {
-    font-style: italic;
+.modelsbtn:hover,
+.workshopbtn:hover,
+.fanshopbtn:hover,
+.renaultsportbtn:hover {
+    font-style: normal;
     color: #555;
     border: 0;
 }

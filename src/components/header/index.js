@@ -9,13 +9,13 @@ const Header = () => {
             </div>
             <div className={styles.navigation}>
                 <nav>
-                    <button>Models</button>
-                    <button>Workshop and Maintance</button>
-                    <button>Fan shop</button>
-                    <button>Renault sport</button>
+                    <button className={styles.modelsbtn}>Models</button>
+                    <button className={styles.workshopbtn}>Workshop and Maintenance</button>
+                    <button className={styles.fanshopbtn}>Fan Shop</button>
+                    <button className={styles.renaultsportbtn}>Renault Sport</button>
                 </nav>
                 <div >
-                   <input className={styles.search} placeholder='Search'></input>
+                    <input className={styles.search} placeholder='Search'></input>
                 </div>
             </div>
         </header>
