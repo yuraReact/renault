@@ -1,0 +1,48 @@
+.models-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Цвет фона */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column; /* Устанавливаем направление колонок */
+    align-items: center; /* Выравниваем элементы по центру */
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05); /* Увеличение размера при наведении */
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  

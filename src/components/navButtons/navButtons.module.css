@@ -14,16 +14,16 @@
     background-color: white;
     color: black;
     padding: 10px 20px;
-    border: 1px solid black; /* Установим одинаковую толщину границы */
+    border: 1px solid black;
     cursor: pointer;
-    margin: 0 15px; /* Добавляем небольшой отступ между кнопками */
-    transition: border 0.3s; /* Добавим плавный переход для границы */
-    box-sizing: border-box; /* Устанавливаем box-sizing для сохранения размеров при изменении границы */
+    margin: 0 15px; 
+    transition: border 0.3s; 
+    box-sizing: border-box; 
 }
 
 .pricelistsbtn:hover,
 .servicebtn:hover,
 .connectionbtn:hover,
 .warehousebtn:hover {
-    border: 1px solid yellow; /* Изменяем толщину границы и цвет при наведении */
+    border: 1px solid yellow; 
 }
