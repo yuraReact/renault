@@ -37,11 +37,66 @@
     border-radius: 5px;
     margin-bottom: 10px;
   }
+
+  .under{
+    display: flex;
+
+}
+
+  .description{
+    margin-top: -20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    width: 100px; 
+    text-align:center;
+  }
+
+  .engine {
+    display: flex;
+    align-items: center;
+    margin-left: -12%;
+  }
   
+  .engine img{
+    width:50px ;
+    height:50px ;
+  }
+
+  .gear {
+    display: flex;
+    align-items: center;
+    margin-left: -1%;
+  }
+
+  .gear img{
+    width:30px ;
+    height:30px ;
+    margin-right: 18px;
+  }
+
+  .eco img {
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: -20px;
+  }
+  
+  .add img {
+    align-items: center;
+    display:flex;
+    width: 50px;
+    height: 50px;
+    margin-top: -52px; /* Поднимаем изображение выше */
+    margin-left: 5px; /* Двигаем изображение правее */
+  }
+
   .card-title {
     margin-top: 25px;
     font-size: 18px;
     color: #333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   
