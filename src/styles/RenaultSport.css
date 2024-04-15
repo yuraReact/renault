@@ -1,0 +1,74 @@
+.renault-sport-page-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 150px;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.renault-sport-page-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.renault-sport-page-title {
+    color: yellow;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.renault-sport-page-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.renault-sport-page-link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.renault-sport-page-link:hover {
+    text-decoration: underline;
+}
+
+.rs-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rs-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rs-card img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.rs-card h3 {
+    margin-top: 25px;
+    font-size: 18px;
+    color: yellow;
+}
+
+.rs-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.rs-card:hover {
+    transform: scale(1.1); /* Збільшення розміру картки при наведенні */
+    transition: transform 0.3s ease; /* Плавна анімація зміни розміру */
+}

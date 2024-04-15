@@ -13,11 +13,12 @@ const Header = () => {
                 <nav>
                     <Link to="/models" className={styles.modelsbtn}>Models</Link>
                     <Link to="/workshop" className={styles.workshopbtn}>Workshop and Maintenance</Link>
-                    <Link to="/fanshop" className={styles.fanshopbtn}>Fan Shop</Link>
+                    <Link to="/assistance" className={styles.fanshopbtn}>Renault Assistance</Link>
                     <Link to="/rs" className={styles.renaultsportbtn}>Renault Sport</Link>
                 </nav>
                 <div >
-                    <input className={styles.search} placeholder='Search'></input>
+                    <a href='https://www.instagram.com/renault_ukraine/'><img src='./images/insta.png' className={styles.insta}></img></a>
+                    <a href='https://www.facebook.com/terkorenault'><img src='./images/facebook.png' className={styles.facebook}></img></a>
                 </div>
             </div>
         </header>

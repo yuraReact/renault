@@ -1,0 +1,49 @@
+.representatives {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .representatives h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .representatives ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .representatives li {
+    margin-bottom: 30px;
+  }
+  
+  .representatives .representative-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .representatives .representative-name {
+    font-weight: bold;
+  }
+  
+  .representatives .street,
+  .representatives .google-link {
+    margin-top: 10px;
+  }
+  
+  .representatives .google-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .representatives .representative-img {
+    margin-top: 10px;
+    max-width: 80px; /* Зменшуємо максимальну ширину зображень */
+    height: auto;
+  }
+  

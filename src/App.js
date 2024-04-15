@@ -3,7 +3,7 @@ import './App.css';
 import ModelsPage from './pages/ModelsPage.jsx';
 import MainPage from './pages/MainPage.jsx';
 import WorkShopPage from './pages/WorkShopPage.jsx';
-import FanShopPage from './pages/FanShopPage.jsx';
+import FanShopPage from './pages/RenaultAssistance.jsx';
 import RenaultSportPage from './pages/RenaultSportPage.jsx';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/models" element={<ModelsPage />} />
           <Route path="/workshop" element={<WorkShopPage />} />
-          <Route path='/fanshop' element={<FanShopPage />}/>
+          <Route path='/assistance' element={<FanShopPage />}/>
           <Route path='/rs' element={<RenaultSportPage />}/>
         </Routes>
       </div>

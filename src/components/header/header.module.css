@@ -7,42 +7,22 @@
 }
 
 
-.search {
-    background-color: transparent;
-    /* Прозрачный фон */
-    border: 2px solid #ccc;
-    /* Тонкая серая рамка */
-    border-radius: 10px;
-    /* Небольшой радиус закругления углов */
-    padding: 8px 12px;
-    /* Поля внутри инпута */
-    box-shadow: none;
-    /* Убираем тень */
-    color: #333;
-    /* Цвет текста */
-    font-size: 16px;
-    /* Размер текста */
-    width: 200px;
-    /* Ширина инпута */
-    transition: border-color 0.3s ease;
-    /* Плавное изменение цвета рамки */
+.insta {
+   width: 25px;
+   height: 25px;
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
 }
 
-.search::placeholder {
-    color: #999;
-    /* Цвет placeholder */
-}
-
-.search:hover,
-.search:focus {
-    border-color: #999;
-    /* Цвет рамки при наведении и фокусе */
-    outline: none;
-    /* Убираем контур при фокусе */
+.facebook {
+    width: 23px;
+    height: 23px;
+     position: absolute;
+     top: 50%;
+     right: 65px;
+     transform: translateY(-50%);
 }
 
 .modelsbtn,
@@ -69,6 +49,9 @@
     color: #555;
     border: 0;
 }
+a {
+    text-decoration: none; /* Видаляємо підкреслення з посилань */
+  }
 
 .navigation {
     display: flex;
